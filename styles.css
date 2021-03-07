@@ -60,6 +60,13 @@ img{
   text-align: center;
 }
 
+  /* class for changing recipe title color */
+  .changeColor {
+    color: #853700;
+  }
+
+
+
 @media (orientation: landscape) {
   
   div {
@@ -86,6 +93,7 @@ img{
   li {
   padding: 1vw;
 }
+ 
   
 }
 
