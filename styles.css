@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Yusei+Magic&display=swap');
-
 body {
   background-color: #FFF0D9;
-   padding: 0;
-   margin: 0;
+  padding: 0;
+  margin: 0;
 }
+
 h1 {
   font-family: 'Coiny', cursive;
   font-size: 12vw;
   color: #521100;
-  margin:3vw;
+  margin: 3vw;
   text-align: center;
 }
 
 h4 {
   font-family: 'Yusei Magic', sans-serif;
-  margin-left:3vw;
+  margin-left: 3vw;
   width: 85vw;
 }
 
@@ -41,7 +41,7 @@ li {
 }
 
 div {
-  display: inline-block; 
+  display: inline-block;
   float: left;
   width: 90vw;
   margin-left: 3vw;
@@ -50,56 +50,53 @@ div {
   border-bottom-style: dashed;
 }
 
-img{
-  width:100vw;
+img {
+  width: 100vw;
   margin-top: 3vw;
   margin-bottom: 3vw;
 }
 
-  #comment, #footer {
+#comment,
+#footer {
   text-align: center;
 }
 
-  /* class for changing recipe title color */
-  .changeColor {
-    color: #853700;
-  }
+/* class for changing recipe title color */
 
+.changeColor {
+  color: #853700;
+}
 
+.hide {
+  display: none;
+}
 
 @media (orientation: landscape) {
-  
   div {
     width: calc(100vw/3 - 8vw);
     border-radius: 1vw;
     border-bottom-style: none;
   }
-  
   h4 {
-  margin-left: 1vw;
+    margin-left: 1vw;
   }
-  
   #comment {
-  width: 90vw;
-  font-size: 2vw;
-}
-
+    width: 90vw;
+    font-size: 2vw;
+  }
   #footer {
-  width: 90vw;
-  margin-top: 3vw;
-  font-size: 1vw;
-}
-  
+    width: 90vw;
+    margin-top: 3vw;
+    font-size: 1vw;
+  }
   li {
-  padding: 1vw;
-}
- 
-  
+    padding: 1vw;
+  }
 }
 
-@media (max-width: 575px){
-  img{ 
-  transform: scaleX(-1);
-  border-radius: 20%;
+@media (max-width: 575px) {
+  img {
+    transform: scaleX(-1);
+    border-radius: 20%;
   }
 }
